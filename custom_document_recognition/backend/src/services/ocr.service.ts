@@ -5,7 +5,7 @@ import os from 'os';
 import { execFile } from 'child_process';
 import { promisify } from 'util';
 import sharp from 'sharp';
-import { getCachedOCR, setCachedOCR } from './cache.service.ts';
+import { getCachedOCR, setCachedOCR } from './cache.service.js';
 
 const execFileAsync = promisify(execFile);
 
@@ -273,7 +273,7 @@ export async function runOCR(filePath: string, language: string = 'rus+eng', use
   const fullText = allTexts.join('\n\n');
   const avgConfidence = pageCount > 0 ? totalConfidence / pageCount : 0.8;
 
-  const result = { text: fullText, blocks: allBlocks, avgConfidence, pageCount };
+  const result = { text: fullText, blocks: allBlocks, avgConfidence, pageCount, fromCache: false };
 
   // Сохраняем в кэш
   if (useCache) {

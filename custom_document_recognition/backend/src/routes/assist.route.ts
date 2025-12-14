@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { describeField } from '../services/llm.service.ts';
+import { describeField } from '../services/llm.service.js';
 
 export const assistRouter = Router();
 

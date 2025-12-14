@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import multer from 'multer';
 import path from 'path';
-import { UPLOADS_DIR } from '../utils/paths.ts';
+import { UPLOADS_DIR } from '../utils/paths.js';
 import fs from 'fs';
 import { execFile } from 'child_process';
 import { promisify } from 'util';

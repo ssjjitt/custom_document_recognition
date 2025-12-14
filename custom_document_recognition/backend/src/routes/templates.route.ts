@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import fs from 'fs';
-import { TEMPLATES_DIR, TEMPLATES_FILE } from '../utils/paths.ts';
-import { connectDB } from '../utils/mongo.ts';
+import { TEMPLATES_DIR, TEMPLATES_FILE } from '../utils/paths.js';
+import { connectDB } from '../utils/mongo.js';
 
 export const templatesRouter = Router();
 

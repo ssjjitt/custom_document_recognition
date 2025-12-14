@@ -1,6 +1,6 @@
 import fs from "fs";
-import { LOGS_DIR, LOG_FILE } from "../utils/paths.ts";
-import { connectDB } from "../utils/mongo.ts";
+import { LOGS_DIR, LOG_FILE } from "../utils/paths.js";
+import { connectDB } from "../utils/mongo.js";
 
 if (!fs.existsSync(LOGS_DIR)) fs.mkdirSync(LOGS_DIR, { recursive: true });
 

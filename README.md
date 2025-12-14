@@ -236,6 +236,3 @@ custom_document_recognition/
 ```
 
 
-=======
-# custom_document_recognition
->>>>>>> 99ed052388c854f5593e11ef6fd60d93ac5d586e

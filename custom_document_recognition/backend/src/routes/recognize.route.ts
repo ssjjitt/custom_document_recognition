@@ -1,10 +1,10 @@
 import { Router } from 'express';
-import { runOCR } from '../services/ocr.service.ts';
-import { queryLLM, suggestFieldsFromText } from '../services/llm.service.ts';
-import { logResult } from '../services/log.service.ts';
+import { runOCR } from '../services/ocr.service.js';
+import { queryLLM, suggestFieldsFromText } from '../services/llm.service.js';
+import { logResult } from '../services/log.service.js';
 import path from 'path';
 import fs from 'fs';
-import { UPLOADS_DIR } from '../utils/paths.ts';
+import { UPLOADS_DIR } from '../utils/paths.js';
 
 export const recognizeRouter = Router();
 
@@ -190,7 +190,9 @@ recognizeRouter.post('/', async (req, res) => {
       const currencyFieldKey = fieldsToUse.find((f) => f.toLowerCase().includes('валют')) || 'валюта';
       if (!finalFields[currencyFieldKey]) {
         const primary = currencyCandidates[0];
-        finalFields[currencyFieldKey] = { value: primary.code, confidence: primary.score, candidates: currencyCandidates, inferred: false };
+        if (primary) {
+          finalFields[currencyFieldKey] = { value: primary.code, confidence: primary.score, candidates: currencyCandidates, inferred: false };
+        }
       } else {
         finalFields[currencyFieldKey].candidates = currencyCandidates;
       }

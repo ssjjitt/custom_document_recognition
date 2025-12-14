@@ -2,8 +2,8 @@ import { Router } from 'express';
 import fs from 'fs';
 import path from 'path';
 import { ObjectId } from 'mongodb';
-import { LOG_FILE, UPLOADS_DIR } from '../utils/paths.ts';
-import { connectDB } from '../utils/mongo.ts';
+import { LOG_FILE, UPLOADS_DIR } from '../utils/paths.js';
+import { connectDB } from '../utils/mongo.js';
 
 export const historyRouter = Router();
 

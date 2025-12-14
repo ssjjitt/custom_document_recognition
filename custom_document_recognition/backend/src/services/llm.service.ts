@@ -1,11 +1,52 @@
-const LLM_ENDPOINT = 'http://localhost:11434/api/generate';
-const LLM_MODEL = 'mistral';
+// Поддержка Groq API и Ollama
+const USE_GROQ = process.env.USE_GROQ === 'true' || !!process.env.GROQ_API_KEY;
+const GROQ_API_KEY = process.env.GROQ_API_KEY;
+const GROQ_ENDPOINT = process.env.GROQ_ENDPOINT || 'https://api.groq.com/openai/v1/chat/completions';
+const GROQ_MODEL = process.env.GROQ_MODEL || 'mixtral-8x7b-32768';
+
+const OLLAMA_ENDPOINT = process.env.OLLAMA_URL || 'http://localhost:11434/api/generate';
+const OLLAMA_MODEL = process.env.OLLAMA_MODEL || 'mistral';
 
 function safeJsonParse(input: string) {
   try {
     return JSON.parse(input);
   } catch (e) {
     return null;
+  }
+}
+
+async function callLLM(prompt: string, temperature: number = 0): Promise<string> {
+  if (USE_GROQ && GROQ_API_KEY) {
+    // Groq API
+    const resp = await fetch(GROQ_ENDPOINT, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${GROQ_API_KEY}`
+      },
+      body: JSON.stringify({
+        model: GROQ_MODEL,
+        messages: [{ role: 'user', content: prompt }],
+        temperature,
+        stream: false
+      })
+    });
+    const data = await resp.json();
+    return (data.choices?.[0]?.message?.content || '').trim();
+  } else {
+    // Ollama API
+    const resp = await fetch(OLLAMA_ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ 
+        model: OLLAMA_MODEL, 
+        prompt, 
+        stream: false, 
+        options: { temperature } 
+      })
+    });
+    const data = await resp.json();
+    return (data.response ?? '').trim();
   }
 }
 
@@ -16,13 +57,7 @@ Context (optional):
 ${contextText.slice(0, 1200)}`;
 
   try {
-    const resp = await fetch(LLM_ENDPOINT, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ model: LLM_MODEL, prompt, stream: false, options: { temperature: 0.3 } })
-    });
-    const data = await resp.json();
-    const raw = (data.response ?? '').trim();
+    const raw = await callLLM(prompt, 0.3);
     return raw.split('\n').slice(0, 6).join(' ').trim();
   } catch (err) {
     console.error('LLM describeField failed:', err);
@@ -61,14 +96,7 @@ Document text:
 ${text}`;
 
   try {
-    const resp = await fetch(LLM_ENDPOINT, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ model: LLM_MODEL, prompt, stream: false, options: { temperature: 0 } })
-    });
-
-    const data = await resp.json();
-    const raw = (data.response ?? '').trim();
+    const raw = await callLLM(prompt, 0);
     const match = raw.match(/\{[\s\S]*\}$/);
     if (!match) return {};
     const parsed = safeJsonParse(match[0]);
@@ -88,13 +116,7 @@ Text:
 ${text}`;
 
   try {
-    const resp = await fetch(LLM_ENDPOINT, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ model: LLM_MODEL, prompt, stream: false, options: { temperature: 0 } })
-    });
-    const data = await resp.json();
-    const raw = (data.response ?? '').trim();
+    const raw = await callLLM(prompt, 0);
     const match = raw.match(/\[[\s\S]*\]/);
     if (!match) return [];
     const parsed = safeJsonParse(match[0]);

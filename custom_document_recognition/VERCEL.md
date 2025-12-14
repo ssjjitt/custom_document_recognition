@@ -1,125 +1,126 @@
 # Vercel Deployment Guide
 
-## Развертывание Frontend на Vercel
+## Деплой Frontend на Vercel
 
-### Вариант 1: Через Vercel CLI
+### Способ 1: Через Vercel CLI
 
-1. Установите Vercel CLI:
 ```bash
+# Установите Vercel CLI (если еще не установлен)
 npm i -g vercel
-```
 
-2. Перейдите в директорию frontend:
-```bash
+# Перейдите в директорию frontend
 cd frontend
-```
 
-3. Войдите в Vercel:
-```bash
+# Войдите в Vercel
 vercel login
-```
 
-4. Разверните приложение:
-```bash
+# Деплой
 vercel
-```
 
-5. Установите переменные окружения:
-```bash
-vercel env add VITE_API_BASE
-# Введите URL вашего backend API (например: https://your-backend.vercel.app или http://your-vps-ip:4000)
-```
-
-6. Для production:
-```bash
+# Для production деплоя
 vercel --prod
 ```
 
-### Вариант 2: Через GitHub/GitLab интеграцию
+### Способ 2: Через GitHub Integration
 
-1. Подключите ваш репозиторий к Vercel через веб-интерфейс
-2. Укажите следующие настройки:
-   - **Root Directory**: `frontend`
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `dist`
-   - **Install Command**: `npm install`
-   - **Framework Preset**: Vite
-
-3. Добавьте переменные окружения в настройках проекта:
-   - `VITE_API_BASE` - URL вашего backend API
+1. Загрузите проект в GitHub репозиторий
+2. Зайдите на [vercel.com](https://vercel.com)
+3. Нажмите "New Project"
+4. Импортируйте ваш репозиторий
+5. Настройте проект:
+   - **Framework Preset:** Vite
+   - **Root Directory:** `frontend`
+   - **Build Command:** `npm run build`
+   - **Output Directory:** `dist`
+   - **Install Command:** `npm install`
 
 ### Настройка переменных окружения
 
-В Vercel Dashboard → Settings → Environment Variables добавьте:
+В настройках проекта на Vercel добавьте переменные окружения:
 
-- **VITE_API_BASE**: URL вашего backend (например: `https://api.yourdomain.com` или `http://your-vps-ip:4000`)
+- `VITE_API_BASE` - URL вашего backend API (например, `https://your-backend-api.com`)
 
-**Важно**: Для переменных, начинающихся с `VITE_`, они должны быть доступны во время сборки.
+**Важно:** После добавления переменных окружения нужно пересобрать проект.
 
-## Backend на Vercel
+## Деплой Backend на Vercel
 
-### Вариант 1: Serverless Functions (ограниченно)
+Vercel поддерживает Serverless Functions, но для вашего случая с Express.js и зависимостями от системных библиотек (canvas, tesseract.js), рекомендуется использовать альтернативные решения:
 
-Backend использует тяжелые зависимости (Tesseract, Canvas, Ollama), которые сложно развернуть на Vercel Serverless Functions из-за ограничений размера и времени выполнения.
+### Вариант 1: Отдельный хостинг для Backend
 
-**Рекомендация**: Разверните backend отдельно:
-- На VPS с Docker
-- На Railway/Render/Fly.io
-- На отдельном сервере
+Рекомендуется использовать:
+- **Railway** - https://railway.app
+- **Render** - https://render.com
+- **Fly.io** - https://fly.io
+- **DigitalOcean App Platform** - https://www.digitalocean.com/products/app-platform
+- **AWS/GCP/Azure** с Docker контейнерами
 
-### Вариант 2: Backend на VPS/Docker
+### Вариант 2: Vercel Serverless Functions (ограниченно)
 
-1. Разверните backend на VPS используя Docker (см. DOCKER.md)
-2. Настройте домен для backend
-3. Укажите этот URL в `VITE_API_BASE` для frontend на Vercel
+Если вы хотите попробовать адаптировать backend для Vercel, нужно будет:
+1. Переписать Express routes в формат Vercel Serverless Functions
+2. Использовать альтернативы для canvas и tesseract.js (например, API сервисы)
+3. Обработка файлов через временное хранилище (S3, Cloudinary)
 
-## CORS настройки
+## Рекомендуемая архитектура
+
+```
+┌─────────────────┐
+│   Vercel        │
+│   (Frontend)    │
+└────────┬────────┘
+         │
+         │ HTTPS
+         │
+┌────────▼────────┐
+│   Backend API   │
+│   (Railway/     │
+│    Render/etc)  │
+└─────────────────┘
+```
+
+## Настройка CORS
 
 Убедитесь что ваш backend разрешает запросы с домена Vercel:
 
-В `backend/src/index.ts`:
 ```typescript
+// backend/src/index.ts
 app.use(cors({
   origin: [
     'https://your-app.vercel.app',
     'http://localhost:3000' // для разработки
-  ],
-  credentials: true
+  ]
 }));
 ```
 
-Или для всех доменов (не рекомендуется для production):
-```typescript
-app.use(cors({
-  origin: '*'
-}));
-```
+## Environment Variables на Vercel
 
-## Структура проекта для Vercel
+После деплоя frontend на Vercel:
 
-Если весь проект в одном репозитории:
+1. Зайдите в настройки проекта
+2. Перейдите в раздел "Environment Variables"
+3. Добавьте:
+   - `VITE_API_BASE` = `https://your-backend-url.com`
 
-1. Создайте `vercel.json` в корне (уже создан)
-2. Или используйте настройки в `frontend/vercel.json`
-3. Укажите Root Directory как `frontend` в настройках Vercel
+## Проверка деплоя
 
-## Проверка развертывания
-
-После развертывания проверьте:
-
+После деплоя проверьте:
 1. Frontend доступен по URL Vercel
 2. API запросы идут на правильный backend URL
 3. CORS настроен корректно
-4. Переменные окружения установлены
+4. Все статические файлы загружаются
 
-## Обновление
+## Troubleshooting
 
-После изменений в коде:
+### Проблемы с переменными окружения
 
-```bash
-cd frontend
-vercel --prod
-```
+Переменные окружения в Vercel должны начинаться с `VITE_` для Vite проектов. После изменения переменных окружения нужно пересобрать проект.
 
-Или используйте автоматический деплой через Git интеграцию.
+### Проблемы с роутингом
+
+Убедитесь что `vercel.json` содержит правильные rewrites для SPA роутинга.
+
+### Проблемы с CORS
+
+Проверьте что backend разрешает запросы с вашего Vercel домена. Добавьте домен в список разрешенных origins в настройках CORS.
 

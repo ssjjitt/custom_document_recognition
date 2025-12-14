@@ -1,4 +1,5 @@
-# Backend Dockerfile
+# Root Dockerfile for Railway deployment
+# Railway будет использовать этот файл если не найдет railway.json
 FROM node:18-alpine
 
 # Установка системных зависимостей для canvas, sharp и tesseract
@@ -18,17 +19,17 @@ RUN apk add --no-cache \
 # Создание рабочей директории
 WORKDIR /app
 
-# Копирование package файлов
-COPY package*.json ./
+# Копирование package файлов backend
+COPY backend/package*.json ./
 
 # Установка всех зависимостей (включая dev для сборки)
 RUN npm ci
 
-# Копирование исходного кода
-COPY . .
+# Копирование исходного кода backend
+COPY backend/ ./
 
 # Копирование traineddata файлов для Tesseract
-COPY eng.traineddata rus.traineddata ./
+COPY backend/eng.traineddata backend/rus.traineddata ./
 
 # Сборка TypeScript
 RUN echo "Starting TypeScript build..." && \
@@ -52,9 +53,6 @@ EXPOSE 4000
 # Переменные окружения
 ENV NODE_ENV=production
 ENV PORT=4000
-
-# Проверка перед запуском
-RUN ls -la dist/ && test -f dist/index.js || (echo "ERROR: dist/index.js missing before start" && exit 1)
 
 # Запуск приложения напрямую через node (более надежно для ESM)
 CMD ["node", "dist/index.js"]

@@ -1,16 +1,17 @@
 node_modules
 npm-debug.log
 dist
+build
+*.log
 .env
 .env.local
+.env.production
 .git
 .gitignore
 README.md
-*.md
 .vscode
 .idea
-*.log
 coverage
-.DS_Store
-public
+.nyc_output
+*.md
 

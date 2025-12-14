@@ -1,6 +1,35 @@
-version: '3.8'
-
 services:
+  mongodb:
+    image: mongo:7
+    container_name: doc-recognition-mongodb
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_DATABASE=doc-recognition
+    volumes:
+      - mongodb_data:/data/db
+    restart: unless-stopped
+    networks:
+      - doc-recognition-network
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: doc-recognition-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+    networks:
+      - doc-recognition-network
+    # Модель mistral нужно загрузить вручную после первого запуска:
+    # docker exec doc-recognition-ollama ollama pull mistral
+
   backend:
     build:
       context: ./backend
@@ -11,48 +40,44 @@ services:
     environment:
       - NODE_ENV=production
       - PORT=4000
-      - MONGODB_URI=${MONGODB_URI:-}
-      - OLLAMA_URL=${OLLAMA_URL:-http://ollama:11434}
+      - MONGO_URI=${MONGO_URI:-mongodb://mongodb:27017}
+      - MONGO_DB=${MONGO_DB:-doc-recognition}
+      - OLLAMA_URL=${OLLAMA_URL:-http://ollama:11434/api/generate}
     volumes:
       - ./backend/uploads:/app/uploads
       - ./backend/logs:/app/logs
       - ./backend/templates:/app/templates
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      ollama:
+        condition: service_started
     restart: unless-stopped
     networks:
       - doc-recognition-network
-    depends_on:
-      - ollama
 
   frontend:
     build:
       context: ./frontend
       dockerfile: Dockerfile
       args:
-        VITE_API_BASE: ${VITE_API_BASE:-http://localhost:4000}
+        - VITE_API_BASE=${VITE_API_BASE:-http://localhost:4000}
     container_name: doc-recognition-frontend
     ports:
       - "3000:80"
-    restart: unless-stopped
-    networks:
-      - doc-recognition-network
     depends_on:
       - backend
-
-  ollama:
-    image: ollama/ollama:latest
-    container_name: doc-recognition-ollama
-    ports:
-      - "11434:11434"
-    volumes:
-      - ollama-data:/root/.ollama
     restart: unless-stopped
     networks:
       - doc-recognition-network
-
-volumes:
-  ollama-data:
 
 networks:
   doc-recognition-network:
     driver: bridge
+
+volumes:
+  mongodb_data:
+    driver: local
+  ollama_data:
+    driver: local
 

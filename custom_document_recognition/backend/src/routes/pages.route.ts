@@ -1,8 +1,8 @@
 import { Router } from 'express';
 import path from 'path';
 import fs from 'fs';
-import { UPLOADS_DIR } from '../utils/paths.ts';
-import { convertPDFPage } from '../services/ocr.service.ts';
+import { UPLOADS_DIR } from '../utils/paths.js';
+import { convertPDFPage } from '../services/ocr.service.js';
 import sharp from 'sharp';
 
 export const pagesRouter = Router();

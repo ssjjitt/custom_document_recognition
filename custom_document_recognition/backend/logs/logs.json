@@ -1,0 +1,4440 @@
+[
+  {
+    "timestamp": "2025-11-04T16:21:31.742Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762273255576-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [
+          {
+            "text": "Москва",
+            "confidence": 1,
+            "bbox": [
+              38,
+              7,
+              6,
+              1
+            ]
+          }
+        ]
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [
+          {
+            "text": "22.10.2025",
+            "confidence": 1,
+            "bbox": [
+              38,
+              17,
+              6,
+              1
+            ]
+          }
+        ]
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [
+          {
+            "text": "10:57",
+            "confidence": 1,
+            "bbox": [
+              38,
+              24,
+              6,
+              1
+            ]
+          }
+        ]
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [
+          {
+            "text": "4 250 Р",
+            "confidence": 1,
+            "bbox": [
+              38,
+              32,
+              6,
+              1
+            ]
+          }
+        ]
+      },
+      "имя_клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [
+          {
+            "text": "Иван Петров",
+            "confidence": 1,
+            "bbox": [
+              38,
+              42,
+              7,
+              1
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-07T09:44:46.077Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762508659988-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-07T09:47:25.383Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762508659988-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента",
+      "номер договора"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "номер договора": {
+        "value": "Не найдено в тексте",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-07T09:50:09.778Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762508659988-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента",
+      "номер договора"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "номер договора": {
+        "value": "840877",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-07T09:51:12.237Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762508659988-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента",
+      "номер договора",
+      "тип документа"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "номер договора": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "тип документа": {
+        "value": "КВИТАНЦИЯ ОБ ОПЛАТЕ",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-07T09:52:39.291Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762508659988-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента",
+      "номер договора",
+      "тип документа",
+      "о чем этот документ говорит"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "номер договора": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "тип документа": {
+        "value": "КВИТАНЦИЯ ОБ ОПЛАТЕ",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "о чем этот документ говорит": {
+        "value": "Оплата",
+        "confidence": 0.8,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-07T09:53:37.736Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762508659988-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента",
+      "номер квитанции",
+      "тип документа",
+      "о чем этот документ говорит"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "номер квитанции": {
+        "value": "840877",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "тип документа": {
+        "value": "КВИТАНЦИЯ ОБ ОПЛАТЕ",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "о чем этот документ говорит": {
+        "value": "Это квитанция о оплате с номером 840877 от 22.10.2025 в сумме 4250 рублей для Ивана Петрова",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-07T17:17:38.839Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762535776186-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-07T17:28:31.590Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762536466968-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-07T17:52:58.122Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762536466968-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-07T17:55:46.798Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762538089144-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "Поточные шифры\nОсобенности.\n1.Операции зашифрования и расшифр. вып-ся поразрядно.\n2.Каждый символ шифртекста получается в рез-те\nпоразрядной операции слож.по модулю два символа\nоткр.текста и символа ключа\n3.Поточный шифратор и деш-р требует задания начального\nзначения ключа\n4.Пот.шифры исп-ся в специальных приложениях и редко\nобсуждаются\nВажнейшее достоинство ПШ перед блочными - высокая\nскорость ш",
+    "llmResult": {
+      "город": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "Важнейшее достоинство ПШ перед блочными - высокая скорость шифрования",
+        "confidence": 0.4,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "Не указано",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": true
+      },
+      "имя клиента": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-07T17:58:25.934Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762538280187-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-07T17:58:57.554Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762538309608-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "Поточные шифры\nОсобенности.\n1.Операции зашифрования и расшифр. вып-ся поразрядно.\n2.Каждый символ шифртекста получается в рез-те\nпоразрядной операции слож.по модулю два символа\nоткр.текста и символа ключа\n3.Поточный шифратор и деш-р требует задания начального\nзначения ключа\n4.Пот.шифры исп-ся в специальных приложениях и редко\nобсуждаются\nВажнейшее достоинство ПШ перед блочными - высокая\nскорость ш",
+    "llmResult": {
+      "город": {
+        "value": "Не явлено из документа",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "Не явлено из документа",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "Не явлено из документа",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "Не явлено из документа",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Не явлено из документа",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-07T18:11:59.326Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762539088719-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-07T18:12:58.679Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762539088719-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента",
+      "time"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "time": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": true
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-09T09:19:50.082Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762679984408-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-09T09:28:36.644Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762680513337-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-09T09:32:00.515Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762680513337-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-09T10:28:13.287Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762684017934-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-09T12:52:06.521Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762692695532-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-09T12:53:46.794Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762692798820-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-09T12:56:44.880Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762692798820-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-09T13:18:53.019Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762694297162-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-09T13:25:43.210Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762694713519-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-09T13:27:58.524Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762694855657-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-09T13:37:48.835Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762695438667-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-09T13:39:00.313Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762695518247-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "TU °°°°°°С1ЩГ-©С°°°\nМинимальные требования для стажёров\n(JS, Node.js)\nStudendum vero semper ubique...\nMarcus Fabius Quintilianus\n2025 Page 1 of 5\n",
+    "llmResult": {
+      "город": {
+        "value": "не указано",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "2025-03-01",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "не указано",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "не указано",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Marcus Fabius Quintilianus",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-09T17:38:37.331Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762709912054-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-10T12:30:30.977Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762777800758-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-10T12:35:55.668Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762778129697-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-10T12:36:47.760Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762778183209-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-10T12:38:51.501Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762778301894-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.\n",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-10T12:41:05.975Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762778442399-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-10T12:42:37.230Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762778538363-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-10T12:44:10.735Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762778538363-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-10T12:48:35.770Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762778538363-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-10T12:51:37.442Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762778538363-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-10T12:56:14.587Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762779347368-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-10T12:58:15.717Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762779468922-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-10T13:09:27.720Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762780133937-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р\nСпасибо за использование нашего сервиса!\n000 «Платёж-Сервис», ИНН 7701234567\nКассовый чек является подтверждением совершения платежа.",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-10T13:15:54.355Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762780531630-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-10T13:16:56.912Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1762780596574-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-19T14:14:26.446Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1763561633418-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-11-19T14:32:08.711Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1763562701995-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1763999778287_nykwx2xus",
+    "timestamp": "2025-11-24T15:56:18.287Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1763999776709-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1764092025206_amu5oh7k8",
+    "timestamp": "2025-11-25T17:33:45.206Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1764092021317-Ð¿Ð°ÑÐ¿Ð¾ÑÑ.jpeg",
+    "fields": [
+      "фамилия",
+      "имя",
+      "отчество",
+      "пол",
+      "дата рождения",
+      "место рождения"
+    ],
+    "ocrTextSnippet": "— | ©\n«5 zn SPS ая Ne ом $ Xx Фвлкалия ЗДР! К\nRH A | Aa СЕРГЕЙ\nSX = ее АНАТОЛЬЕВИЧ on\n3 We | ow 23.07.1972\nSK uid | a ©\net WE | pomsenes С. ФРОНТОВКА ©\not 5 | ОРАТОВСКОГО Р-НА | ©\n= ВИННИЦКОЙ OB. =\nPNRUSZDRIL7K<<SERGEQ<ANATOLIEVI3<<<CCLLLLKLK\n3919353498RUST207233M<<<<<<<4151218910003<50",
+    "llmResult": {
+      "фамилия": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "отчество": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "пол": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата рождения": {
+        "value": "23.07.1972",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "место рождения": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1764092040429_cok9bmcxh",
+    "timestamp": "2025-11-25T17:34:00.429Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1764092021317-Ð¿Ð°ÑÐ¿Ð¾ÑÑ.jpeg",
+    "fields": [
+      "фамилия",
+      "имя",
+      "отчество",
+      "пол",
+      "дата рождения",
+      "место рождения"
+    ],
+    "ocrTextSnippet": "— | ©\n«5 zn SPS ая Ne ом $ Xx Фвлкалия ЗДР! К\nRH A | Aa СЕРГЕЙ\nSX = ее АНАТОЛЬЕВИЧ on\n3 We | ow 23.07.1972\nSK uid | a ©\net WE | pomsenes С. ФРОНТОВКА ©\not 5 | ОРАТОВСКОГО Р-НА | ©\n= ВИННИЦКОЙ OB. =\nPNRUSZDRIL7K<<SERGEQ<ANATOLIEVI3<<<CCLLLLKLK\n3919353498RUST207233M<<<<<<<4151218910003<50",
+    "llmResult": {
+      "фамилия": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "отчество": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "пол": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата рождения": {
+        "value": "23.07.1972",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "место рождения": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1764092058876_txspz6e57",
+    "timestamp": "2025-11-25T17:34:18.876Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1764092021317-Ð¿Ð°ÑÐ¿Ð¾ÑÑ.jpeg",
+    "fields": [
+      "фамилия",
+      "имя",
+      "отчество",
+      "пол",
+      "дата рождения",
+      "место рождения"
+    ],
+    "ocrTextSnippet": "— | ©\n«5 zn SPS ая Ne ом $ Xx Фвлкалия ЗДР! К\nRH A | Aa СЕРГЕЙ\nSX = ее АНАТОЛЬЕВИЧ on\n3 We | ow 23.07.1972\nSK uid | a ©\net WE | pomsenes С. ФРОНТОВКА ©\not 5 | ОРАТОВСКОГО Р-НА | ©\n= ВИННИЦКОЙ OB. =\nPNRUSZDRIL7K<<SERGEQ<ANATOLIEVI3<<<CCLLLLKLK\n3919353498RUST207233M<<<<<<<4151218910003<50",
+    "llmResult": {
+      "фамилия": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "отчество": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "пол": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата рождения": {
+        "value": "23.07.1972",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "место рождения": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1764092080382_ggnmgzey3",
+    "timestamp": "2025-11-25T17:34:40.382Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1764092021317-Ð¿Ð°ÑÐ¿Ð¾ÑÑ.jpeg",
+    "fields": [
+      "фамилия",
+      "имя",
+      "отчество",
+      "пол",
+      "дата рождения",
+      "место рождения"
+    ],
+    "ocrTextSnippet": "— | ©\n«5 zn SPS ая Ne ом $ Xx Фвлкалия ЗДР! К\nRH A | Aa СЕРГЕЙ\nSX = ее АНАТОЛЬЕВИЧ on\n3 We | ow 23.07.1972\nSK uid | a ©\net WE | pomsenes С. ФРОНТОВКА ©\not 5 | ОРАТОВСКОГО Р-НА | ©\n= ВИННИЦКОЙ OB. =\nPNRUSZDRIL7K<<SERGEQ<ANATOLIEVI3<<<CCLLLLKLK\n3919353498RUST207233M<<<<<<<4151218910003<50",
+    "llmResult": {
+      "фамилия": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "отчество": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "пол": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата рождения": {
+        "value": "23.07.1972",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "место рождения": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1764092084348_qp5kf2to6",
+    "timestamp": "2025-11-25T17:34:44.348Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1764092081693-fullsize.jpg",
+    "fields": [
+      "фамилия",
+      "имя",
+      "отчество",
+      "пол",
+      "дата рождения",
+      "место рождения"
+    ],
+    "ocrTextSnippet": "Еее\nhE. i АНАНД '\nGRP DR ROD dunes ==\nВ ALPE EREIENE a у\ni Ly =\n“с с ОМКАР Se\n& = ‘отчество ВИКТОРОВИЧ =\nаа * 9 iii ‚ >\n% \"я * Tos Marg poms 16.09.1988.\nы J Место #\n3 с рожден ГОРОД МОСКВА 2 &\nSo ¥ =\nPNRUSANAND <<OMKAF З<<<<<<<<<<<<<<<<\n| 4515327043RUS880916 <1120322770122<68",
+    "llmResult": {
+      "фамилия": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "отчество": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "пол": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата рождения": {
+        "value": "16.09.1988",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      },
+      "место рождения": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1764092390953_lms1j3czo",
+    "timestamp": "2025-11-25T17:39:50.953Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1764092081693-fullsize.jpg",
+    "fields": [
+      "фамилия",
+      "имя",
+      "отчество",
+      "пол",
+      "дата рождения",
+      "место рождения"
+    ],
+    "ocrTextSnippet": "| A EA , A COREE\npes Co Ea\nBEY RRS RX, Фамилия BOR ts sir. SPE ASE oa\na CAPS ©. | \\ AREY\npee oer. BUHKTOROENEL. [Fos\n2 = ” 3 Ry Пол МУЖ ‚рождения ‚ 16.09.2388 К >\nws i Место Lan Ато ee SE\nffs mews | ГОРОД МОСКВА — = JE\nВ REE\nsigan А. . В rn\ni эй ПОП с Пти ПЕОМ СНОС ООО НБА\nATR ; CL TEE\n; PNRUSANANDK<OMKAR < ' 5<к<<<<<<<<<<<<<< 1\nL 451532704 3Ки5 880515 |. кллеоЗ22770122<&@_\nhis !\nmee очен еее —— o",
+    "llmResult": {
+      "фамилия": {
+        "value": "EA",
+        "confidence": 0.6,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя": {
+        "value": "ВEY",
+        "confidence": 0.6,
+        "candidates": [],
+        "inferred": false
+      },
+      "отчество": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "пол": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата рождения": {
+        "value": "16.09.2388",
+        "confidence": 0.8,
+        "candidates": [],
+        "inferred": false
+      },
+      "место рождения": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1764092486662_y32qu0bkh",
+    "timestamp": "2025-11-25T17:41:26.662Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1764092081693-fullsize.jpg",
+    "fields": [
+      "фамилия",
+      "имя",
+      "отчество",
+      "пол",
+      "дата рождения",
+      "место рождения"
+    ],
+    "ocrTextSnippet": "| A EA , A COREE\npes Co Ea\nBEY RRS RX, Фамилия BOR ts sir. SPE ASE oa\na CAPS ©. | \\ AREY\npee oer. BUHKTOROENEL. [Fos\n2 = ” 3 Ry Пол МУЖ ‚рождения ‚ 16.09.2388 К >\nws i Место Lan Ато ee SE\nffs mews | ГОРОД МОСКВА — = JE\nВ REE\nsigan А. . В rn\ni эй ПОП с Пти ПЕОМ СНОС ООО НБА\nATR ; CL TEE\n; PNRUSANANDK<OMKAR < ' 5<к<<<<<<<<<<<<<< 1\nL 451532704 3Ки5 880515 |. кллеоЗ22770122<&@_\nhis !\nmee очен еее —— o",
+    "llmResult": {
+      "фамилия": {
+        "value": "EA",
+        "confidence": 0.6,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя": {
+        "value": "ВEY",
+        "confidence": 0.6,
+        "candidates": [],
+        "inferred": false
+      },
+      "отчество": {
+        "value": "none",
+        "confidence": 0.9,
+        "candidates": [],
+        "inferred": true
+      },
+      "пол": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата рождения": {
+        "value": "16.09.2388",
+        "confidence": 0.8,
+        "candidates": [],
+        "inferred": false
+      },
+      "место рождения": {
+        "value": "Не удалось различно распознать место рождения",
+        "confidence": 0.1,
+        "candidates": [],
+        "inferred": true
+      }
+    }
+  },
+  {
+    "id": "log_1764093038783_jmtsmtthw",
+    "timestamp": "2025-11-25T17:50:38.783Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1764092973605-fullsize.jpg",
+    "fields": [
+      "фамилия",
+      "имя",
+      "отчество",
+      "пол",
+      "дата рождения",
+      "место рождения"
+    ],
+    "ocrTextSnippet": "ee Tt E+ tC\n(Jr \\ 1\n| . АНАНД \\ UL\nTIEN GNBIY, Ag RS AS: Фамилия NF\nSE NECN EAE Зе\nPL Имя OMEKAP or\nif . я и\nс Вах - Отчество ВИКТОРОВИЧ я\n4 > М [ \\ Дата\nес | У Tox мудр rox 16.09.1988\nс» 1S Мест\nTA „й 3 ne 2 сл\nо pens ГОРОД МОСКВА —\n20 Aa го\n| ~1\nЛ he =\nPNRUSANAND<S<<KOMKAR<' F EEL CELL CLELCERER\n| 45 1532704 ЗВу 5880 ° 16 <<1120322770122<48",
+    "llmResult": {
+      "фамилия": {
+        "value": "RS",
+        "confidence": 0.6,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя": {
+        "value": "UL",
+        "confidence": 0.6,
+        "candidates": [],
+        "inferred": false
+      },
+      "отчество": {
+        "value": "OMEKAР",
+        "confidence": 0.7,
+        "candidates": [],
+        "inferred": false
+      },
+      "пол": {
+        "value": "M",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "S",
+            "confidence": 0.9
+          }
+        ],
+        "inferred": false
+      },
+      "дата рождения": {
+        "value": "16.09.1988",
+        "confidence": 0.8,
+        "candidates": [],
+        "inferred": false
+      },
+      "место рождения": {
+        "value": "not specified",
+        "confidence": 0.2,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1764093126519_p0k2877pj",
+    "timestamp": "2025-11-25T17:52:06.519Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1764093054910-Ð¿Ð°ÑÐ¿Ð¾ÑÑ.jpeg",
+    "fields": [
+      "фамилия",
+      "имя",
+      "отчество",
+      "пол",
+      "дата рождения",
+      "место рождения"
+    ],
+    "ocrTextSnippet": "КУ КОК Ы МАВОХ КАМ К АЖОК К) Фамилия ЗДРИЛЮК\n239 NEN Пао Е\n(ek со\nar Мань ай : со\ncll | kK a СЕРГЕЙ\n# r у: |\n‚7 . | - - : | Отчество аа Л A ps\na ГМ =| | : АНАТОЛЬЕВИЧ ем\n3 i г ha) ‘AN po | Пол МУЖ Nr 23 - 07 » 1972\nGed U1 et OW | |\nAN, A У че - Мела : со\nCH ао fhe С. ФРОНТОВКА co\no Co h | ОРАТОВСКОГО Р-НА ~~ ©\nL RUSSEL\nA `°— ВИННИЦКОЙ ОБЛ. on\nPNRUSZDRIL/7K<<SERGEQ<ANATOLYEVI3<<<LLLLLLKLKKLKL\n39193",
+    "llmResult": {
+      "фамилия": {
+        "value": "RUSSEL",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "RUSSEL",
+            "confidence": 0.9,
+            "bbox": [
+              36,
+              4,
+              6,
+              1
+            ]
+          }
+        ],
+        "inferred": false
+      },
+      "имя": {
+        "value": "SERGEQ",
+        "confidence": 0.8,
+        "candidates": [
+          {
+            "text": "SERGEQ",
+            "confidence": 0.8,
+            "bbox": [
+              51,
+              4,
+              3,
+              1
+            ]
+          }
+        ],
+        "inferred": false
+      },
+      "отчество": {
+        "value": "ANATOLYEV13",
+        "confidence": 0.6,
+        "candidates": [
+          {
+            "text": "ANATOLYEV13",
+            "confidence": 0.6,
+            "bbox": [
+              72,
+              4,
+              8,
+              1
+            ]
+          }
+        ],
+        "inferred": false
+      },
+      "пол": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата рождения": {
+        "value": "1972-07-23",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "1972-07-23",
+            "confidence": 0.9,
+            "bbox": [
+              84,
+              4,
+              6,
+              1
+            ]
+          }
+        ],
+        "inferred": false
+      },
+      "место рождения": {
+        "value": "Ged U1 et 0W I",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": true
+      }
+    }
+  },
+  {
+    "id": "log_1764093330177_ujm4gfpg2",
+    "timestamp": "2025-11-25T17:55:30.177Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1764093075639-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р",
+    "llmResult": {
+      "город": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10 57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1764093394024_gfufo04x4",
+    "timestamp": "2025-11-25T17:56:34.024Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1764093364908-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1764093435567_wic67kxkh",
+    "timestamp": "2025-11-25T17:57:15.567Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1764093399481-Ð¿Ð°ÑÐ¿Ð¾ÑÑ.jpeg",
+    "fields": [
+      "фамилия",
+      "имя",
+      "отчество",
+      "пол",
+      "дата рождения",
+      "место рождения"
+    ],
+    "ocrTextSnippet": "— | ©\n«5 zn SPS ая Ne ом $ Xx Фвлкалия ЗДР! К\nRH A | Aa СЕРГЕЙ\nSX = ее АНАТОЛЬЕВИЧ on\n3 We | ow 23.07.1972\nSK uid | a ©\net WE | pomsenes С. ФРОНТОВКА ©\not 5 | ОРАТОВСКОГО Р-НА | ©\n= ВИННИЦКОЙ OB. =\nPNRUSZDRIL7K<<SERGEQ<ANATOLIEVI3<<<CCLLLLKLK\n3919353498RUST207233M<<<<<<<4151218910003<50",
+    "llmResult": {
+      "фамилия": {
+        "value": "ФРОНТОВКА",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя": {
+        "value": "СЕРГЕЙ",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "отчество": {
+        "value": "АНАТОЛЬЕВИЧ",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "пол": {
+        "value": "Мужской",
+        "confidence": 0.8,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата рождения": {
+        "value": "23.07.1972",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "место рождения": {
+        "value": "ВИННИЦКОЙ ОБЛ.",
+        "confidence": 0.8,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1764167800290_fqcj2m1rc",
+    "timestamp": "2025-11-26T14:36:40.290Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1764167761569-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1764615945079_7yqrc1hmc",
+    "timestamp": "2025-12-01T19:05:45.079Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1764615908320-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1764616047685_buobi0c74",
+    "timestamp": "2025-12-01T19:07:27.685Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1764615908320-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р",
+    "llmResult": {
+      "город": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "цена": {
+        "value": "4 250 Р",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Иван Петров",
+        "confidence": 0.5,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1764616199485_qp59f8ztz",
+    "timestamp": "2025-12-01T19:09:59.485Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1764616156312-pdf.png",
+    "fields": [
+      "город",
+      "дата",
+      "время",
+      "цена",
+      "имя клиента"
+    ],
+    "ocrTextSnippet": "TU °°°°°°С1ЩГ-©С°°°\nМинимальные требования для стажёров\n(JS, Node.js)\nStudendum vero semper ubique...\nMarcus Fabius Quintilianus\n2025 Page 1 of 5",
+    "llmResult": {
+      "город": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "дата": {
+        "value": "2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": true
+      },
+      "цена": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "имя клиента": {
+        "value": "Marcus Fabius Quintilianus",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1765197052128_vpr455trt",
+    "timestamp": "2025-12-08T12:30:52.129Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1765196948589-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "quitanceNumber",
+      "date",
+      "time",
+      "clientName",
+      "city",
+      "price",
+      "currency",
+      "totalPrice",
+      "clientLastname",
+      "clientFirstname",
+      "валюта"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р",
+    "llmResult": {
+      "quitanceNumber": {
+        "value": "840877",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "date": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "time": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "clientName": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "city": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "price": {
+        "value": "4250",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "currency": {
+        "value": "RUB",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "totalPrice": {
+        "value": "4250 RUB",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "clientLastname": {
+        "value": "Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "clientFirstname": {
+        "value": "Иван",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "валюта": {
+        "value": "RUB",
+        "confidence": 1,
+        "candidates": [
+          {
+            "code": "RUB",
+            "label": "₽ (RUB)",
+            "score": 0.95,
+            "source": "symbol"
+          }
+        ],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1765197170781_5lsn0tgb6",
+    "timestamp": "2025-12-08T12:32:50.781Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1765196948589-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "quitanceNumber",
+      "date",
+      "time",
+      "clientName",
+      "city",
+      "price",
+      "currency",
+      "totalPrice",
+      "clientLastname",
+      "clientFirstname",
+      "валюта"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р",
+    "llmResult": {
+      "quitanceNumber": {
+        "value": "840877",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "date": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "time": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "clientName": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "city": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "price": {
+        "value": "4250",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "currency": {
+        "value": "RUB",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "totalPrice": {
+        "value": "4250 RUB",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "clientLastname": {
+        "value": "Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "clientFirstname": {
+        "value": "Иван",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "валюта": {
+        "value": "RUB",
+        "confidence": 1,
+        "candidates": [
+          {
+            "code": "RUB",
+            "label": "₽ (RUB)",
+            "score": 0.95,
+            "source": "symbol"
+          }
+        ],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1765197702313_k7b7emwjh",
+    "timestamp": "2025-12-08T12:41:42.313Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1765196948589-1739838301-receipt_test_cyrillic.png",
+    "fields": [
+      "quitanceNumber",
+      "date",
+      "time",
+      "clientName",
+      "city",
+      "price",
+      "currency",
+      "totalPrice",
+      "clientLastname",
+      "clientFirstname",
+      "валюта"
+    ],
+    "ocrTextSnippet": "КВИТАНЦИЯ ОБ ОПЛАТЕ\nНомер квитанции: 840877\nДата: 22.10.2025\nВремя: 10:57\nИмя клиента: Иван Петров\nГород: Москва\nЦена: 4 250 Р",
+    "llmResult": {
+      "quitanceNumber": {
+        "value": "840877",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "date": {
+        "value": "22.10.2025",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "time": {
+        "value": "10:57",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "clientName": {
+        "value": "Иван Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "city": {
+        "value": "Москва",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "price": {
+        "value": "4250",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "currency": {
+        "value": "RUB",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "totalPrice": {
+        "value": "4250 RUB",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "clientLastname": {
+        "value": "Петров",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "clientFirstname": {
+        "value": "Иван",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "валюта": {
+        "value": "RUB",
+        "confidence": 1,
+        "candidates": [
+          {
+            "code": "RUB",
+            "label": "₽ (RUB)",
+            "score": 0.95,
+            "source": "symbol"
+          }
+        ],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1765197827188_509l1o3iz",
+    "timestamp": "2025-12-08T12:43:47.188Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1765197653492-feb129c17ee681875d764abf75439ab3.png",
+    "fields": [
+      "Фамилия",
+      "Имя",
+      "Отчество",
+      "Дата рождения",
+      "Пол",
+      "Место рождения",
+      "Место",
+      "Гражданство",
+      "Зарегистрирован в месту жительства",
+      "Адрес пребывания",
+      "валюта"
+    ],
+    "ocrTextSnippet": "| ПО АДРЕСНЫЙ ЛИСТОК ПРИБЫТИЯ Форма №2\n1. вони васильсо 12. Переенал в том же населенном пумте\n2. имя Иоан уп дом кю |\n3. Отчество \"Николаевич! +3. Переменил(а) ФИО и прочие сведения с:\n3. Дата рождения 57—02 190 2. 5.Пол мк/ено | Фамилия\n6. Место рождения: страна. Ро. имя.\nрегион. —Томскаяобя | место |\nрайон О | дларождемя Бол омуктен |\nгород олашео ———\nнаселенный пума ___—————————————— | а ронет",
+    "llmResult": {
+      "Фамилия": {
+        "value": "Вони",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "Вони",
+            "confidence": 0.9
+          }
+        ],
+        "inferred": false
+      },
+      "Имя": {
+        "value": "Иоан",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "Иоан",
+            "confidence": 0.9
+          }
+        ],
+        "inferred": false
+      },
+      "Отчество": {
+        "value": "Николаевич",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "Николаевич",
+            "confidence": 0.9
+          }
+        ],
+        "inferred": false
+      },
+      "Дата рождения": {
+        "value": "57-02-1902",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "57-02-1902",
+            "confidence": 0.9
+          }
+        ],
+        "inferred": false
+      },
+      "Пол": {
+        "value": "м/ж",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "м/ж",
+            "confidence": 0.9
+          }
+        ],
+        "inferred": false
+      },
+      "Место рождения": {
+        "value": "Россия Томская область Томская область",
+        "confidence": 0.7,
+        "candidates": [
+          {
+            "text": "Россия Томская область Томская область",
+            "confidence": 0.7
+          }
+        ],
+        "inferred": false
+      },
+      "Место": {
+        "value": "Томская обл.",
+        "confidence": 1,
+        "candidates": [
+          {
+            "text": "Томская обл.",
+            "confidence": 1
+          }
+        ],
+        "inferred": false
+      },
+      "Гражданство": {
+        "value": "РФ",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "РФ",
+            "confidence": 0.9
+          }
+        ],
+        "inferred": false
+      },
+      "Зарегистрирован в месту жительства": {
+        "value": "да",
+        "confidence": 1,
+        "candidates": [
+          {
+            "text": "да",
+            "confidence": 1
+          }
+        ],
+        "inferred": false
+      },
+      "Адрес пребывания": {
+        "value": "ул. Сибирская, д. 15 кор. 602",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "ул. Сибирская, д. 15 кор. 602",
+            "confidence": 0.9
+          }
+        ],
+        "inferred": false
+      },
+      "валюта": {
+        "value": "RUB",
+        "confidence": 0,
+        "candidates": [
+          {
+            "code": "RUB",
+            "label": "₽ (RUB)",
+            "score": 0.95,
+            "source": "symbol"
+          }
+        ],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1765198872797_3pa08aiyg",
+    "timestamp": "2025-12-08T13:01:12.797Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1765198726768-feb129c17ee681875d764abf75439ab3.png",
+    "fields": [
+      "Фамилия",
+      "Имя",
+      "Отчество",
+      "Дата рождения",
+      "Пол",
+      "Место рождения",
+      "Место",
+      "Гражданство",
+      "Зарегистрирован в месту жительства",
+      "Адрес пребывания",
+      "валюта"
+    ],
+    "ocrTextSnippet": "| ПО АДРЕСНЫЙ ЛИСТОК ПРИБЫТИЯ Форма №2\n1. вони васильсо 12. Переенал в том же населенном пумте\n2. имя Иоан уп дом кю |\n3. Отчество \"Николаевич! +3. Переменил(а) ФИО и прочие сведения с:\n3. Дата рождения 57—02 190 2. 5.Пол мк/ено | Фамилия\n6. Место рождения: страна. Ро. имя.\nрегион. —Томскаяобя | место |\nрайон О | дларождемя Бол омуктен |\nгород олашео ———\nнаселенный пума ___—————————————— | а ронет",
+    "llmResult": {
+      "Фамилия": {
+        "value": "Вони",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "Вони",
+            "confidence": 0.9
+          }
+        ],
+        "inferred": false
+      },
+      "Имя": {
+        "value": "Иоан",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "Иоан",
+            "confidence": 0.9
+          }
+        ],
+        "inferred": false
+      },
+      "Отчество": {
+        "value": "Николаевич",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "Николаевич",
+            "confidence": 0.9
+          }
+        ],
+        "inferred": false
+      },
+      "Дата рождения": {
+        "value": "57-02-1902",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "57-02-1902",
+            "confidence": 0.9
+          }
+        ],
+        "inferred": false
+      },
+      "Пол": {
+        "value": "м/ж",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "м/ж",
+            "confidence": 0.9
+          }
+        ],
+        "inferred": false
+      },
+      "Место рождения": {
+        "value": "Россия Томская область Томская область",
+        "confidence": 0.7,
+        "candidates": [
+          {
+            "text": "Россия Томская область Томская область",
+            "confidence": 0.7
+          }
+        ],
+        "inferred": false
+      },
+      "Место": {
+        "value": "Томская обл.",
+        "confidence": 1,
+        "candidates": [
+          {
+            "text": "Томская обл.",
+            "confidence": 1
+          }
+        ],
+        "inferred": false
+      },
+      "Гражданство": {
+        "value": "РФ",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "РФ",
+            "confidence": 0.9
+          }
+        ],
+        "inferred": false
+      },
+      "Зарегистрирован в месту жительства": {
+        "value": "да",
+        "confidence": 1,
+        "candidates": [
+          {
+            "text": "да",
+            "confidence": 1
+          }
+        ],
+        "inferred": false
+      },
+      "Адрес пребывания": {
+        "value": "ул. Сибирская, д. 15 кор. 602",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "ул. Сибирская, д. 15 кор. 602",
+            "confidence": 0.9
+          }
+        ],
+        "inferred": false
+      },
+      "валюта": {
+        "value": "RUB",
+        "confidence": 0,
+        "candidates": [
+          {
+            "code": "RUB",
+            "label": "₽ (RUB)",
+            "score": 0.95,
+            "source": "symbol"
+          }
+        ],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1765199530926_ylrhcppob",
+    "timestamp": "2025-12-08T13:12:10.926Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1765199335946-feb129c17ee681875d764abf75439ab3.png",
+    "fields": [
+      "Фамилия",
+      "Имя",
+      "Отчество",
+      "Дата рождения",
+      "Пол",
+      "Место рождения",
+      "Гражданство",
+      "Зарегистрированное место жительства",
+      "Адрес пребывания",
+      "Паспорт данные",
+      "валюта"
+    ],
+    "ocrTextSnippet": "| ПО АДРЕСНЫЙ ЛИСТОК ПРИБЫТИЯ Форма №2\n1. вони васильсо 12. Переенал в том же населенном пумте\n2. имя Иоан уп дом кю |\n3. Отчество \"Николаевич! +3. Переменил(а) ФИО и прочие сведения с:\n3. Дата рождения 57—02 190 2. 5.Пол мк/ено | Фамилия\n6. Место рождения: страна. Ро. имя.\nрегион. —Томскаяобя | место |\nрайон О | дларождемя Бол омуктен |\nгород олашео ———\nнаселенный пума ___—————————————— | а ронет",
+    "llmResult": {
+      "Фамилия": {
+        "value": "Вони",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "Вони",
+            "confidence": 0.9,
+            "bbox": [
+              13,
+              6,
+              5,
+              1
+            ]
+          }
+        ],
+        "inferred": false
+      },
+      "Имя": {
+        "value": "Иоан",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "Иоан",
+            "confidence": 0.9,
+            "bbox": [
+              24,
+              6,
+              7,
+              1
+            ]
+          }
+        ],
+        "inferred": false
+      },
+      "Отчество": {
+        "value": "Николаевич",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "Николаевич",
+            "confidence": 0.9,
+            "bbox": [
+              32,
+              6,
+              10,
+              1
+            ]
+          }
+        ],
+        "inferred": false
+      },
+      "Дата рождения": {
+        "value": "57-02-1902",
+        "confidence": 0.9,
+        "candidates": [],
+        "inferred": false
+      },
+      "Пол": {
+        "value": "м/ж",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "мк/ено",
+            "confidence": 0.9,
+            "bbox": [
+              42,
+              6,
+              3,
+              1
+            ]
+          }
+        ],
+        "inferred": false
+      },
+      "Место рождения": {
+        "value": "Томская область, д. Ронетрнины — кмеспужительства",
+        "confidence": 0.8,
+        "candidates": [
+          {
+            "text": "д. Ронетрнины — кмеспужительства",
+            "confidence": 0.8,
+            "bbox": [
+              53,
+              12,
+              24,
+              1
+            ]
+          }
+        ],
+        "inferred": false
+      },
+      "Гражданство": {
+        "value": "Россия",
+        "confidence": 0.9,
+        "candidates": [],
+        "inferred": false
+      },
+      "Зарегистрированное место жительства": {
+        "value": "Томская область, Томск, ул. Сибирская, д. 15 кор. 602",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "Т5 тодись",
+            "confidence": 0.8,
+            "bbox": [
+              73,
+              14,
+              10,
+              1
+            ]
+          }
+        ],
+        "inferred": false
+      },
+      "Адрес пребывания": {
+        "value": "ул. Сибирская, д. 15 кор. 602",
+        "confidence": 0.9,
+        "candidates": [],
+        "inferred": false
+      },
+      "Паспорт данные": {
+        "value": "серия _6908_— номер __ 32246 выдан ЕТО 20083",
+        "confidence": 0.9,
+        "candidates": [],
+        "inferred": false
+      },
+      "валюта": {
+        "value": "RUB",
+        "confidence": 1,
+        "candidates": [
+          {
+            "code": "RUB",
+            "label": "₽ (RUB)",
+            "score": 0.95,
+            "source": "symbol"
+          }
+        ],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1765200848435_tnmz5kvci",
+    "timestamp": "2025-12-08T13:34:08.435Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1765200701725-feb129c17ee681875d764abf75439ab3.png",
+    "fields": [
+      "Фамилия",
+      "Имя",
+      "Отчество",
+      "Дата рождения",
+      "Пол",
+      "Место рождения",
+      "Гражданство",
+      "Зарегистрированное место жительства",
+      "Адрес пребывания",
+      "Паспорт данные",
+      "валюта"
+    ],
+    "ocrTextSnippet": "| ПО АДРЕСНЫЙ ЛИСТОК ПРИБЫТИЯ Форма №2\n1. вони васильсо 12. Переенал в том же населенном пумте\n2. имя Иоан уп дом кю |\n3. Отчество \"Николаевич! +3. Переменил(а) ФИО и прочие сведения с:\n3. Дата рождения 57—02 190 2. 5.Пол мк/ено | Фамилия\n6. Место рождения: страна. Ро. имя.\nрегион. —Томскаяобя | место |\nрайон О | дларождемя Бол омуктен |\nгород олашео ———\nнаселенный пума ___—————————————— | а ронет",
+    "llmResult": {
+      "Фамилия": {
+        "value": "Вони",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "Вони",
+            "confidence": 0.9,
+            "bbox": [
+              13,
+              6,
+              5,
+              1
+            ]
+          }
+        ],
+        "inferred": false
+      },
+      "Имя": {
+        "value": "Иоан",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "Иоан",
+            "confidence": 0.9,
+            "bbox": [
+              24,
+              6,
+              7,
+              1
+            ]
+          }
+        ],
+        "inferred": false
+      },
+      "Отчество": {
+        "value": "Николаевич",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "Николаевич",
+            "confidence": 0.9,
+            "bbox": [
+              32,
+              6,
+              10,
+              1
+            ]
+          }
+        ],
+        "inferred": false
+      },
+      "Дата рождения": {
+        "value": "57-02-1902",
+        "confidence": 0.9,
+        "candidates": [],
+        "inferred": false
+      },
+      "Пол": {
+        "value": "м/ж",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "мк/ено",
+            "confidence": 0.9,
+            "bbox": [
+              42,
+              6,
+              3,
+              1
+            ]
+          }
+        ],
+        "inferred": false
+      },
+      "Место рождения": {
+        "value": "Томская область, д. Ронетрнины — кмеспужительства",
+        "confidence": 0.8,
+        "candidates": [
+          {
+            "text": "д. Ронетрнины — кмеспужительства",
+            "confidence": 0.8,
+            "bbox": [
+              53,
+              12,
+              24,
+              1
+            ]
+          }
+        ],
+        "inferred": false
+      },
+      "Гражданство": {
+        "value": "Россия",
+        "confidence": 0.9,
+        "candidates": [],
+        "inferred": false
+      },
+      "Зарегистрированное место жительства": {
+        "value": "Томская область, Томск, ул. Сибирская, д. 15 кор. 602",
+        "confidence": 0.9,
+        "candidates": [
+          {
+            "text": "Т5 тодись",
+            "confidence": 0.8,
+            "bbox": [
+              73,
+              14,
+              10,
+              1
+            ]
+          }
+        ],
+        "inferred": false
+      },
+      "Адрес пребывания": {
+        "value": "ул. Сибирская, д. 15 кор. 602",
+        "confidence": 0.9,
+        "candidates": [],
+        "inferred": false
+      },
+      "Паспорт данные": {
+        "value": "серия _6908_— номер __ 32246 выдан ЕТО 20083",
+        "confidence": 0.9,
+        "candidates": [],
+        "inferred": false
+      },
+      "валюта": {
+        "value": "RUB",
+        "confidence": 1,
+        "candidates": [
+          {
+            "code": "RUB",
+            "label": "₽ (RUB)",
+            "score": 0.95,
+            "source": "symbol"
+          }
+        ],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1765277195525_vk6msgptx",
+    "timestamp": "2025-12-09T10:46:35.525Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1765276967091-pdf.png",
+    "fields": [
+      "document_classification",
+      "ukd_code",
+      "group_id",
+      "title",
+      "issuing_body",
+      "date_of_issue",
+      "effective_date",
+      "purpose",
+      "scope",
+      "classification_rules",
+      "валюта"
+    ],
+    "ocrTextSnippet": "УДК 002:651.7/.78:006.354 Группа Т55\nаи та,\nс рик\nа ) ус\nже\nие сео\nГОСУДАРСТВЕННЫЙ СТАНДАРТ СОЮЗА ССР\n«Ню\nЕдиная система программной документации\nОБЩИЕ ПОЛОЖЕНИЯ 19.001-\n°\n\\Чпиеа зумет Гог ргоргат фоситетмапоп 77\nСепета! рппстр!с$\nПостановлением Государственного комитета стандартов Совета Министров СССР\nот 20 мая 1977 г. № 1268 срок введения установлен\nс 01.01. 1980 г.\nНастоящий стандарт устанавли",
+    "llmResult": {
+      "document_classification": {
+        "value": "ГОСУДАРСТВЕННЫЙ СТАНДАРТ СОЮЗА ССР",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "ukd_code": {
+        "value": "002:651.7/.78:006.354",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "group_id": {
+        "value": "Т55",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "title": {
+        "value": "ОБЩИЕ ПОЛОЖЕНИЯ 19.001-",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "issuing_body": {
+        "value": "ГОСУДАРСТВЕННЫЙ СТАНДАРТ СОЮЗА ССР",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "date_of_issue": {
+        "value": "20 мая 1977 г.",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "effective_date": {
+        "value": "с 01.01. 1980 г.",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "purpose": {
+        "value": "устанавливает целевое назначение, область распространения, классификацию и правила обозначения стандартов, входящих в комплекс Единой системы программной документации (ЕСПД)",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "scope": {
+        "value": "ГОСУДАРСТВЕННЫЙ СТАНДАРТ СОЮЗА ССР «Ню Единая система программной документации»",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "classification_rules": {
+        "value": "входящих в комплекс Единой системы программной документации (ЕСПД)",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "валюта": {
+        "value": "RUB",
+        "confidence": 0.2,
+        "candidates": [
+          {
+            "code": "RUB",
+            "label": "₽ (RUB)",
+            "score": 0.95,
+            "source": "symbol"
+          },
+          {
+            "code": "USD",
+            "label": "$ (USD)",
+            "score": 0.8,
+            "source": "symbol"
+          }
+        ],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1765291594171_lm1mmfaa7",
+    "timestamp": "2025-12-09T14:46:34.171Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1765291487826-pdf.png",
+    "fields": [
+      "document_classification",
+      "ukd_code",
+      "title",
+      "issuing_body",
+      "date_of_issue",
+      "effective_date",
+      "purpose",
+      "scope",
+      "classification_system",
+      "rules_of_notation",
+      "валюта"
+    ],
+    "ocrTextSnippet": "УДК 002:651.7/.78:006.354 Группа Т55\nаи та,\nс рик\nа ) ус\nже\nие сео\nГОСУДАРСТВЕННЫЙ СТАНДАРТ СОЮЗА ССР\n«Ню\nЕдиная система программной документации\nОБЩИЕ ПОЛОЖЕНИЯ 19.001-\n°\n\\Чпиеа зумет Гог ргоргат фоситетмапоп 77\nСепета! рппстр!с$\nПостановлением Государственного комитета стандартов Совета Министров СССР\nот 20 мая 1977 г. № 1268 срок введения установлен\nс 01.01. 1980 г.\nНастоящий стандарт устанавли",
+    "llmResult": {
+      "document_classification": {
+        "value": "Группа Т55",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "ukd_code": {
+        "value": "002:651.7/.78:006.354",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "title": {
+        "value": "Ню Единая система программной документации ОБЩИЕ ПОЛОЖЕНИЯ",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "issuing_body": {
+        "value": "ГОСУДАРСТВЕННЫЙ СТАНДАРТ СОЮЗА ССР",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "date_of_issue": {
+        "value": "20 мая 1977 г.",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "effective_date": {
+        "value": "с 01.01. 1980 г.",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "purpose": {
+        "value": "устанавливает целевое назначение, область распространения, классификацию и правила обозначения стандартов, входящих в комплекс Единой системы программной документации (ЕСПД)",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "scope": {
+        "value": "Государственные стандарты",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "classification_system": {
+        "value": "Единая система программной документации (ЕСПД)",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "rules_of_notation": {
+        "value": "в стандартах ЕСПД устанавливают требования, регламентирующие разработку, сопровождение, изготовление и эксплуатацию программ",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "валюта": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [
+          {
+            "code": "RUB",
+            "label": "₽ (RUB)",
+            "score": 0.95,
+            "source": "symbol"
+          },
+          {
+            "code": "USD",
+            "label": "$ (USD)",
+            "score": 0.8,
+            "source": "symbol"
+          }
+        ],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1765292302457_lzh1mznzw",
+    "timestamp": "2025-12-09T14:58:22.457Z",
+    "filePath": "D:\\!TWELVEDEVS\\custom_document_recognition\\backend\\uploads\\1765291827138-Tree1.pdf",
+    "fields": [
+      "site",
+      "www.matburo.ru",
+      "problem_type",
+      "decision_making",
+      "task_description",
+      "create_consulting_service_or_invest_safely",
+      "initial_investment",
+      "$200,000",
+      "computer_calculations",
+      "tree_structure",
+      "валюта"
+    ],
+    "ocrTextSnippet": "Решение задачи принятия решения выполнено на сайте www.matburo.ru\nПерсходите на сайт, смотрите больше примеров или закажите свою работу\nhttps://www matburo.ru'ex_emm.php?pl=emmdr\n<эМатЬБюро. Решение задач по математике, экономике, программированию\n\nРешение задачи с помощью дерева решений\n\nВы рассматриваете перспективы создания новой консалтинговой службы. Объем\nнеобходимых вложений на начальном эт",
+    "llmResult": {
+      "site": {
+        "value": "www.matburo.ru",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "www.matburo.ru": {
+        "value": "www.matburo.ru",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "problem_type": {
+        "value": [
+          "математика",
+          "экономике",
+          "программированию"
+        ],
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "decision_making": {
+        "value": true,
+        "confidence": 1,
+        "candidates": [],
+        "inferred": false
+      },
+      "task_description": {
+        "value": "Decision making problem solved on the site www.matburo.ru",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": true
+      },
+      "create_consulting_service_or_invest_safely": {
+        "value": "консалтинг",
+        "confidence": 1,
+        "candidates": [
+          {
+            "text": "консалтинг",
+            "confidence": 1
+          }
+        ],
+        "inferred": true
+      },
+      "initial_investment": {
+        "value": "$200,000",
+        "confidence": 1,
+        "candidates": [],
+        "inferred": true
+      },
+      "$200,000": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "computer_calculations": {
+        "value": "[{\"text\": \"Сервер\",\"confidence\": 0.9,\"bbox\":[34,67,100,30]},{\"text\": \"Арендовать компьютерные ресурсы по мере необходимости\",\"confidence\": 0.8,\"bbox\":[34,97,100,30]}]",
+        "confidence": 1,
+        "candidates": [
+          {
+            "text": "Сервер",
+            "confidence": 0.9,
+            "bbox": [
+              34,
+              67,
+              100,
+              30
+            ]
+          },
+          {
+            "text": "Арендовать компьютерные ресурсы по мере необходимости",
+            "confidence": 0.8,
+            "bbox": [
+              34,
+              97,
+              100,
+              30
+            ]
+          }
+        ],
+        "inferred": true
+      },
+      "tree_structure": {
+        "value": [
+          {
+            "root": {
+              "children": [
+                {
+                  "text": "Выбор: вложить деньги в консалтинг или на практически безрисковой основе",
+                  "confidence": 1,
+                  "bbox": [
+                    12,
+                    347,
+                    568,
+                    392
+                  ]
+                },
+                {
+                  "text": "Безрисковая основа",
+                  "confidence": 1,
+                  "bbox": [
+                    12,
+                    400,
+                    200,
+                    37
+                  ]
+                },
+                {
+                  "text": "Консалтинг",
+                  "confidence": 1,
+                  "bbox": [
+                    12,
+                    458,
+                    200,
+                    37
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "children": [
+              {
+                "text": "Безрисковая основа",
+                "confidence": 1,
+                "bbox": [
+                  12,
+                  400,
+                  200,
+                  37
+                ]
+              },
+              {
+                "text": "Прибыль: 320 тыс. долл.",
+                "confidence": 1,
+                "bbox": [
+                  12,
+                  568,
+                  490,
+                  37
+                ]
+              }
+            ]
+          },
+          {
+            "children": [
+              {
+                "text": "Консалтинг",
+                "confidence": 1,
+                "bbox": [
+                  12,
+                  458,
+                  200,
+                  37
+                ]
+              },
+              {
+                "text": "Выбор: покупать или арендовать сервер",
+                "confidence": 1,
+                "bbox": [
+                  12,
+                  604,
+                  568,
+                  392
+                ]
+              },
+              {
+                "text": "Покупка сервера",
+                "confidence": 1,
+                "bbox": [
+                  12,
+                  660,
+                  200,
+                  37
+                ]
+              },
+              {
+                "text": "Арендовать сервер",
+                "confidence": 1,
+                "bbox": [
+                  12,
+                  726,
+                  200,
+                  37
+                ]
+              },
+              {
+                "text": "Прибыль: 718 тыс. долл.",
+                "confidence": 1,
+                "bbox": [
+                  12,
+                  954,
+                  490,
+                  37
+                ]
+              }
+            ]
+          }
+        ],
+        "probabilities": [
+          {
+            "parent": 0,
+            "children": [
+              {
+                "child": 1,
+                "probability": 0.2
+              },
+              {
+                "child": 2,
+                "probability": 0.8
+              }
+            ]
+          },
+          {
+            "parent": 1,
+            "children": [
+              {
+                "child": 3,
+                "probability": 0.6
+              },
+              {
+                "child": 4,
+                "probability": 0.4
+              }
+            ]
+          },
+          {
+            "parent": 2,
+            "children": [
+              {
+                "child": 5,
+                "probability": 0.8
+              },
+              {
+                "child": 6,
+                "probability": 0.2
+              }
+            ]
+          }
+        ],
+        "utility": [
+          0,
+          320000,
+          718000
+        ],
+        "confidence": 0.25,
+        "inferred": true
+      },
+      "валюта": {
+        "value": "USD",
+        "confidence": 1,
+        "candidates": [
+          {
+            "code": "RUB",
+            "label": "₽ (RUB)",
+            "score": 0.95,
+            "source": "symbol"
+          },
+          {
+            "code": "USD",
+            "label": "$ (USD)",
+            "score": 0.8,
+            "source": "symbol"
+          }
+        ],
+        "inferred": true
+      }
+    }
+  },
+  {
+    "id": "log_1765711687399_s6f2ybdqp",
+    "timestamp": "2025-12-14T11:28:07.399Z",
+    "filePath": "/app/uploads/1765711682427-ÑÐ°Ð·Ð²_v2.drawio.png",
+    "fields": [
+      "дата",
+      "время",
+      "сумма",
+      "валюта",
+      "номер документа",
+      "организация"
+    ],
+    "ocrTextSnippet": "arwce\nt ! 1\n1 React § rorbend\nГ | ! Aggie on\nim\nDacre: Селе\n№2 49 1 Феззов 1\nv й й .\n= = =\nосно сое вона Cortans Dutatass Cortanes\nPS Pi\noh Reacts (Г) коде; 22 190 oh res\n1 1920 HITE 1 Papen 5 10 1\ni + le wate 6 1. i",
+    "llmResult": {
+      "дата": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "сумма": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "валюта": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "номер документа": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "организация": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  },
+  {
+    "id": "log_1765719055124_39uk8jsin",
+    "timestamp": "2025-12-14T13:30:55.124Z",
+    "filePath": "/app/uploads/1765719049677-feb129c17ee681875d764abf75439ab3.png",
+    "fields": [
+      "дата",
+      "время",
+      "сумма",
+      "валюта",
+      "номер документа",
+      "организация"
+    ],
+    "ocrTextSnippet": "LEE ae\nFRE— Bacomon | [EN Пока в 7 я — |\nУ Oresras Monsey RN ve ——pp—————— - -\n< TCT © бег нее | саелею\n© Место sets Страна PO -\nжены ее | \"ое поныне |\nBe TI | 16 Sparcvpcoms TT wave |\nее my трески до TT | т ——\n. Cop eh кр = wr |\n@ or Te ———— ВНЕ\nдуемс о Cossmerow pains + Tasers wm TEST\nEe a жееневя\nстр _ O68 sce _ 300061 me НЫ НОЯ\ntree za pt\n\n‘дуеыс » Совытском Poot Tomes we TOT\nFo кр в",
+    "llmResult": {
+      "дата": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "время": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "сумма": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "валюта": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [
+          {
+            "code": "RUB",
+            "label": "₽ (RUB)",
+            "score": 0.95,
+            "source": "symbol"
+          }
+        ],
+        "inferred": false
+      },
+      "номер документа": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      },
+      "организация": {
+        "value": "",
+        "confidence": 0,
+        "candidates": [],
+        "inferred": false
+      }
+    }
+  }
+]
