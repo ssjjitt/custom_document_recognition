@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { apiUrl } from "../utils/api";
 
 interface Props {
   filePath: string;
@@ -21,10 +22,10 @@ export default function DocViewer({ filePath, ocrBlocks, fields, onAssign, recog
       // Для PDF (многостраничных или одностраничных) используем endpoint для получения страницы
       const fileToUse = originalFileName || filename;
       const encodedPath = encodeURIComponent(fileToUse);
-      return `http://localhost:4000/api/pages/${encodedPath}/${currentPage}`;
+      return apiUrl(`api/pages/${encodedPath}/${currentPage}`);
     }
     // Для изображений используем обычный путь
-    return `http://localhost:4000/api/uploads/${encodeURIComponent(filename)}`;
+    return apiUrl(`api/uploads/${encodeURIComponent(filename)}`);
   };
   
   const src = getImageSrc();

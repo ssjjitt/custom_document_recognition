@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import { apiUrl } from "../utils/api";
 
 interface Props {
   onUploaded: (path: string) => void;
@@ -18,7 +19,7 @@ export default function FileUploader({ onUploaded, onError }: Props) {
     const formData = new FormData();
     formData.append("file", file);
     try {
-      const res = await fetch("http://localhost:4000/api/upload", {
+      const res = await fetch(apiUrl("api/upload"), {
         method: "POST",
         body: formData,
       });

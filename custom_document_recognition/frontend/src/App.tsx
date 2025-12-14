@@ -8,6 +8,7 @@ import HistoryViewer from "./components/HistoryViewer";
 import TemplateManager from "./components/TemplateManager";
 import LanguageSelector from "./components/LanguageSelector";
 import Tooltip from "./components/Tooltip";
+import { apiUrl } from "./utils/api";
 import SmartTooltip from "./components/SmartTooltip";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -32,7 +33,7 @@ export default function App() {
     setIsProcessing(true);
     const toastId = toast.loading("Обработка документа...");
     try {
-      const resp = await fetch("http://localhost:4000/api/recognize", {
+      const resp = await fetch(apiUrl("api/recognize"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 
@@ -144,7 +145,7 @@ export default function App() {
   const describeField = async (field: string) => {
     if (fieldHints[field]) return fieldHints[field];
     try {
-      const resp = await fetch("http://localhost:4000/api/assist/describe-field", {
+      const resp = await fetch(apiUrl("api/assist/describe-field"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ field, context: result?.ocr?.text || "" }),

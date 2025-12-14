@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { apiUrl } from "../utils/api";
 import { toast } from "react-toastify";
 
 interface HistoryEntry {
@@ -24,7 +25,7 @@ export default function HistoryViewer({ onLoadEntry }: Props) {
   const loadHistory = async () => {
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:4000/api/history?limit=20");
+      const res = await fetch(apiUrl("api/history?limit=20"));
       const data = await res.json();
       if (data.logs) {
         setHistory(data.logs);
@@ -53,7 +54,7 @@ export default function HistoryViewer({ onLoadEntry }: Props) {
     if (!confirm("Удалить эту запись из истории?")) return;
 
     try {
-      const res = await fetch(`http://localhost:4000/api/history/${id}`, {
+      const res = await fetch(apiUrl(`api/history/${id}`), {
         method: "DELETE",
       });
       if (res.ok) {

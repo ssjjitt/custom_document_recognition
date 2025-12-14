@@ -1,5 +1,6 @@
 import React, { ReactNode, useState } from "react";
 import Tooltip from "./Tooltip";
+import { apiUrl } from "../utils/api";
 
 type Props = {
   title: string;
@@ -15,7 +16,7 @@ export default function SmartTooltip({ title, context = "", children }: Props) {
     if (text || loading) return;
     setLoading(true);
     try {
-      const resp = await fetch("http://localhost:4000/api/assist/describe-field", {
+      const resp = await fetch(apiUrl("api/assist/describe-field"), {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ field: title, context }),

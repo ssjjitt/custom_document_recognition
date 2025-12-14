@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { apiUrl } from "../utils/api";
 import SmartTooltip from "./SmartTooltip";
 import { toast } from "react-toastify";
 
@@ -28,7 +29,7 @@ export default function TemplateManager({ currentFields, onLoadTemplate }: Props
   const loadTemplates = async () => {
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:4000/api/templates");
+      const res = await fetch(apiUrl("api/templates"));
       const data = await res.json();
       if (data.templates) {
         setTemplates(data.templates);
@@ -79,8 +80,8 @@ export default function TemplateManager({ currentFields, onLoadTemplate }: Props
 
     try {
       const url = editingTemplate
-        ? `http://localhost:4000/api/templates/${editingTemplate.id}`
-        : "http://localhost:4000/api/templates";
+        ? apiUrl(`api/templates/${editingTemplate.id}`)
+        : apiUrl("api/templates");
       const method = editingTemplate ? "PUT" : "POST";
 
       const res = await fetch(url, {
@@ -114,7 +115,7 @@ export default function TemplateManager({ currentFields, onLoadTemplate }: Props
     if (!confirm(`Удалить шаблон "${name}"?`)) return;
 
     try {
-      const res = await fetch(`http://localhost:4000/api/templates/${id}`, {
+      const res = await fetch(apiUrl(`api/templates/${id}`), {
         method: "DELETE",
       });
 
